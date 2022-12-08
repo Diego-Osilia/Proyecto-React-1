@@ -2,7 +2,7 @@
   "name": "proyecto1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Diego-Osilia.github.io/Proyecto-React-1",
+  "homepage": "http://diego-osilia.github.io/Proyecto-React-1",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
