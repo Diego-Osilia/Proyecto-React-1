@@ -1,25 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Testimonio from "./componentes/Testimonio.js"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Maldito Heroku</h1>
-        <p>Que huevo</p>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Esto es lo que dicen los empleados</h1>
+      <Testimonio />
     </div>
   );
 }
