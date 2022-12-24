@@ -3,9 +3,11 @@ import Testimonio from "./componentes/Testimonio.js"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Esto es lo que dicen los empleados</h1>
-      <Testimonio />
+    <div className='app'>
+      <div className='contenedor-principal'>
+        <h1>Esto es lo que dicen los empleados</h1>
+        <Testimonio />
+      </div>
     </div>
   );
 }
