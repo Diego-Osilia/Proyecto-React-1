@@ -2,7 +2,7 @@ import React from "react";
 import "../stylesheets/testimonio.css";
 
 
-function testimonio() {
+function testimonio(props) {
   return (
     <div className="contenedor-testimonio">
       <img
@@ -12,13 +12,9 @@ function testimonio() {
       />
 
       <div clasname="contenedor-texto">
-        <p className="nombre-testimonio">Veronika Zuleta en Reino Unido</p>
-        <p className="cargo-testimonio">Diseñadora Digital</p>
-        <p className="texto-testimonio">
-          "Nor again is there anyone who loves or pursues or desires to obtain
-          pain of itself, because it is pain, but occasionally circumstances
-          occur in which toil and pain can procure him some great pleasure"
-        </p>
+        <p className="nombre-testimonio">{props.nombre} en {props.pais}</p>
+        <p className="cargo-testimonio">{props.cargo} en {props.empresa}</p>
+        <p className="texto-testimonio">"{props.testimonio}"</p>
       </div>
     </div>
   );
